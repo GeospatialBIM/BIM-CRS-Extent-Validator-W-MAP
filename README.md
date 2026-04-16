@@ -81,9 +81,9 @@ This format is suitable for:
 ### 2. File Geodatabase Output (Optional)
 
 When **ArcPy is available**:
-- Feature classes are created per EPSG code
+- Polygon Feature classes are created per EPSG code
 - Feature class names are sanitized for GDB compatibility
-- Out-of-bounds records are suffixed with `_Empty`
+- Out-of-bounds records are suffixed with `_Empty` and reported as a Table featrure class
 
 If ArcPy is not installed, the script skips GDB creation without failing.
 
